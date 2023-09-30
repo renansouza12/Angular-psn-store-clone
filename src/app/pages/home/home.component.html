@@ -1,0 +1,51 @@
+<div class="app">
+    <header>
+        <app-nav-bar/>
+        <app-nav-bar-sign-in/>
+    </header>
+    <div class="menu_burger">
+        <app-menu-burger/>
+    </div>
+    <main>
+        <app-content
+        contentCover="https://image.api.playstation.com/vulcan/img/rnd/202010/2618/UIRjzDjQKrOD4kx6ubmlOsrA.png?w=5000&thumb=false"
+        contentTitle="The last Of Us Part 2"
+        />
+    </main>
+    <section>
+        <app-card
+        cardLabel="Edição Standard"
+
+        cardImage="https://image.api.playstation.com/vulcan/ap/rnd/202307/0710/28b62abf77fde8a35e133f69a9a253e4307b2a04d2040699.jpg?w=780&thumb=false"
+        cardTitle="EA SPORTS FC 24"
+        [cardDevices]="['PS4','PS5']"
+        cardPrice="R$ 358,90"
+        
+        />
+        <app-card
+        cardLabel="Edição Multigeração"
+
+        cardImage="https://image.api.playstation.com/vulcan/ap/rnd/202308/1623/ba00d855b4f9061f4f7c294506753f58bf33ac28453a8de4.png?w=440&thumb=false"
+        cardTitle="Call Of Duty"
+        [cardDevices]="['PS4','PS5']"
+        cardPrice="R$ 249,50"
+        />
+        <app-card
+        cardLabel="Cyberpunk 2077"
+
+        cardImage="https://image.api.playstation.com/vulcan/ap/rnd/202202/1517/UyPJCxbE3EoeLtUxjoFBnsD4.png?w=440&thumb=false"
+        cardTitle="Cyberpunk 2077"
+        [cardDevices]="['PS4','PS5']"
+        cardPrice="R$ 299,00"
+        />
+        <app-card
+        cardLabel="Edição Standard"
+
+        cardImage="https://image.api.playstation.com/vulcan/ap/rnd/202305/1515/1cc63f4f4b2c9a9852fabefba4ca7eea936b1ef7867811a5.png?w=440&thumb=false"
+        cardTitle="Mortal Kombat 1"
+        [cardDevices]="['PS5']"
+        cardPrice="R$ 299,90"
+        />
+    </section>
+    
+</div>

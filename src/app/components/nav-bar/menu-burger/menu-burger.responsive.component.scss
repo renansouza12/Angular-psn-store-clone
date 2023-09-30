@@ -1,0 +1,25 @@
+
+@media screen and (max-width:720px) {
+    .nav_bar_burger{
+        width: 30%;
+        ul{
+            li{
+                a{
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:480px) {
+    .nav_bar_burger{
+        width: 30%;
+        ul{
+            li{
+                a{
+                    font-size: 0.8rem;
+                }
+            }
+        }
+    }
+}

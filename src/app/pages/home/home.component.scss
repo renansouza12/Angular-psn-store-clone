@@ -1,0 +1,13 @@
+.app{
+    overflow: hidden;
+    header{
+        display: block;
+    }
+    .menu_burger{
+        display: none;
+    }
+    section{
+        display: flex;
+        justify-content: space-between;
+    }
+}

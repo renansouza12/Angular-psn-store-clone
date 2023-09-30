@@ -1,0 +1,20 @@
+<div class="menu_burger_container">
+    <img src="https://www.freepnglogos.com/uploads/playstation-png-logo/andtoid-playstation-png-logo-24.png" alt="logo PSN">
+
+    <div class="menu_burger"  [ngClass]="active" (click)="menuBurger()" >
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+
+<div class="nav_bar_burger" *ngIf="menu_burger">
+    <ul>
+        <li><a href="#">Games</a></li>
+        <li><a href="#">PlayStation</a></li>
+        <li><a href="#">Add-ons</a></li>
+        <li><a href="#">January Sale</a></li>
+        <li><a href="#">PlayStation VR</a></li>
+        <li><a href="#">Just for you</a></li>
+    </ul>
+</div>
